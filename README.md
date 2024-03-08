@@ -5,6 +5,8 @@ This project includes scripts to fetch, process, and analyze Nobel Prize data. T
 ## Files
 
 - nobel_prizes.csv - Data Source
+- Nobel.ipynb - API Collection
+- Nobel_DataAnalyze.ipynb - Data Analyze
 
 ### `Nobel.ipynb`
 
@@ -29,10 +31,11 @@ Key Features:
 
 ## Usage
 
-1. Ensure you have Python 3.x installed along with the required packages (`requests`, `pandas`, 'pyplot', 'plotly').
-2. Run `fetch_nobel_prizes.py` to fetch the data from the Nobel Prize API.
-3. Run `analyze_nobel_prizes.py` to process and analyze the fetched data.
-4. The analyzed data will be saved to `nobel_prizes.csv` in the specified directory.
+1. Ensure you have Python 3.x installed along with the required packages (`requests`, `pandas`, `pyplot`, `plotly`).
+2. Run `Nobel.ipynb` to fetch the data from the Nobel Prize API.
+3. The analyzed data will be saved to `nobel_prizes.csv` in the specified directory.
+4. Update the .env file with the directory to allow run the step 5.
+5. Run `Nobel_DataAnalyze.ipynb` to process and analyze the fetched data.
 
 ## Requirements
 
